@@ -1,0 +1,3 @@
+ticketing so easy backgound #FFEFEA
+primary color FC6435
+dashboard hover bg FEE5DD

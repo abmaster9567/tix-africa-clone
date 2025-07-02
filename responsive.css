@@ -1,0 +1,135 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+
+
+/* Nav Bar Responsive style*/
+@media (max-width: 768px) {
+    .nav-item {
+        position: fixed;
+        display: none;
+        flex-direction: column;
+        background-color: white;
+        position: fixed;
+        top: 0;
+        right: 0;
+        width: 100vw;
+        height: 100vh;
+        padding: 1rem 0;
+    }
+
+    .nav-item li a {
+        color: black;
+
+
+    }
+
+    .nav-item.show {
+        display: flex;
+    }
+
+    .header-right .menu-icon {
+        display: block;
+    }
+
+    .header-right .menu-search {
+        margin-right: 1rem;
+    }
+
+    .header-right .cta1 {
+        display: none;
+    }
+
+}
+
+/*hero responsive style*/
+@media (max-width: 768px) {
+    .hero-content h1 {
+        font-weight: 500;
+        font-size: 1.5rem;
+    }
+
+    .hero-content p {
+        font-size: 0.8rem;
+
+    }
+
+    .hero-content button {
+        min-width: 22rem;
+    }
+
+}
+
+/* Categories Responsive Style */
+@media (max-width: 768px) {
+    .categories-container {
+        display: block;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        margin: 2rem;
+    }
+
+
+
+
+
+
+    .categories-container>.text-left h2 {
+        font-family: "Inter", sans-serif;
+        font-weight: 600;
+        text-align: center;
+        font-size: 1.9rem;
+        margin-right: 0;
+        text-align: center;
+        margin-top: 4rem;
+
+    }
+
+    .categories-container>.text-right p {
+        font-family: "Inter", sans-serif;
+        font-weight: 500;
+        text-align: center;
+        margin: 0;
+        font-size: 0.9rem;
+
+
+
+    }
+
+}
+
+@media (max-width: 768px) {
+    .bottom-container {
+        margin: 0;
+        padding: 0;
+    }
+    .container-img img {
+        max-width: 150px;
+        
+        
+    }
+
+}
+
+/* Planning Responsive Style */
+@media (max-width: 768px) {
+    .planning-container {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin: 0;
+    }
+
+    .planning-container>div h1 {
+        font-weight: 700;
+        font-size: 1rem;
+        text-align: center;
+
+    }
+
+    .planning-container>div p {
+        font-weight: 500;
+        font-size: 0.9rem;
+        text-align: center;
+    }
+}
