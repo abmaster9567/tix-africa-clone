@@ -458,7 +458,8 @@ header {
 }
 
 .testimonial {
-    height: 700px;
+    min-height: 700px;
+    background-color: #fff;
 
 }
 
@@ -529,7 +530,7 @@ header {
 }
 
 .partner-slider {
-    height: 200px;
+    background-color: #fff;
 
 
 }
