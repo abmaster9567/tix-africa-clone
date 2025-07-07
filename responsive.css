@@ -3,7 +3,7 @@
 
 
 /* Nav Bar Responsive style*/
-@media (max-width: 768px) {
+@media (max-width: 500px) {
     .nav-item {
         position: fixed;
         display: none;
@@ -42,7 +42,7 @@
 }
 
 /*hero responsive style*/
-@media (max-width: 768px) {
+@media (max-width: 500px) {
     .hero-content h1 {
         font-weight: 500;
         font-size: 1.5rem;
@@ -60,7 +60,7 @@
 }
 
 /* Categories Responsive Style */
-@media (max-width: 768px) {
+@media (max-width: 500px) {
     .categories-container {
         display: block;
         justify-content: center;
@@ -101,7 +101,7 @@
 
 }
 
-@media (max-width: 768px) {
+@media (max-width: 500px) {
     .bottom-container {
         margin: 0;
         padding: 0;
@@ -115,17 +115,17 @@
 }
 
 /* Planning Responsive Style */
-@media (max-width: 768px) {
+@media (max-width: 500px) {
     .planning-container {
         flex-direction: column;
         justify-content: center;
         align-items: center;
-        margin: 0;
+        margin: auto;
     }
 
     .planning-container>div h1 {
-        font-weight: 900;
-        font-size: 2rem;
+        font-weight: 800;
+        font-size: 1.1rem;
         text-align: center;
         margin-top: 10rem;
 
@@ -136,4 +136,8 @@
         font-size: 0.9rem;
         text-align: center;
     }
+    .planning-container>.planning-right img {
+    width: 300px;
+    margin-top: 1rem;
+}
 }

@@ -288,19 +288,19 @@ header {
     flex-flow: row wrap;
     justify-content: space-around;
     align-items: flex-start;
-    margin: 5rem;
+    margin: 20px;
     background-color: #fff;
 }
 
 .planning-container>div {
     flex: 1;
+    margin: 4rem;
 }
 
 .planning-container>div h1 {
     font-family: "Inter", sans-serif;
     font-weight: 900;
     font-size: 3rem;
-    margin-right: 4rem;
     letter-spacing: 1px;
 }
 
@@ -311,17 +311,7 @@ header {
     font-weight: 500;
 }
 
-.planning-container>div:nth-child(2) {
-    flex: 1;
-    margin-left: 3rem;
 
-
-}
-
-.planning-container>.planning-right img {
-    width: 500px;
-    margin-top: 4rem;
-}
 
 .planning-container .planning-left-cta button {
     background-color: transparent;
@@ -342,6 +332,17 @@ header {
     background-color: var(--primary-color);
     color: white;
     transition: .5s;
+}
+.planning-container .planning-right {
+    flex: 1;
+    margin: 3rem
+
+
+}
+
+.planning-container>.planning-right img {
+    width: 500px;
+    margin-top: 4rem;
 }
 
 .service {
