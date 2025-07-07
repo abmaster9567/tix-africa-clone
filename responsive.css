@@ -155,11 +155,55 @@
 /* Ticketing Responsive Style */
 @media (max-width: 500px) {
     .ticket-container {
-        margin: 0;
+        flex-direction: column;
     }
-    .ticket-container>h1 {
-        font-weight: 900;
-        font-size: 1.5rem;
 
+    .ticket-container>h1 {
+        font-weight: 800;
+        font-size: 1rem;
+
+    }
+}
+
+@media (max-width: 500px) {
+    .testimonial-header h2 {
+        font-weight: 700;
+        font-size: 1rem;
+    }
+    .testimonial-slider p {
+        padding: 10px;
+    }
+
+}
+@media (max-width: 500px) {
+    .footer {
+        flex-direction: column;
+
+    }
+    .footer .footer-details {
+        margin-left: 0;
+    }
+    .footer-details .footer-txt p {
+        font-size: 0.9rem;
+        margin-right: 0;
+    }
+    .footer-details button {
+        width: 35%;
+    }
+    .footer .footer-links {
+    margin-left: 0rem;
+
+}
+}
+@media (max-width: 500px) {
+    .footer-copyright {
+        flex-direction: column;
+    }
+    .footer-copyright .Copyright-links {
+        flex-direction: column;
+        margin-right: 0;
+    }
+    .footer-copyright h5 {
+        margin-left: 0;
     }
 }
