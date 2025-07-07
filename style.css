@@ -289,6 +289,7 @@ header {
     justify-content: space-around;
     align-items: flex-start;
     margin: 5rem;
+    background-color: #fff;
 }
 
 .planning-container>div {
