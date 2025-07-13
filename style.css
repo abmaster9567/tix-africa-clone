@@ -131,7 +131,7 @@ header {
     flex-flow: column wrap;
     justify-content: center;
     align-items: center;
-    background-image: url(assets/img/heroo.jpg);
+    background: linear-gradient(rgba(0, 0, 0, 0.5)), rgba(0, 0, 0, 0.02) url('assets/img/heroo.jpg');
     background-repeat: no-repeat;
     background-size: cover;
     background-position: top;
