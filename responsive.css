@@ -128,22 +128,22 @@
         flex-direction: column;
         justify-content: center;
         align-items: center;
-        margin: 0 auto;
+        margin: 7px;
 
 
     }
 
     .planning-container>div {
-        margin: 1rem 0;
-        width: 100%;
+        margin: 0.5rem ;
         text-align: center;
     }
 
     .planning-container>div h1 {
-        font-weight: 800;
-        font-size: 1.1rem;
+        font-weight: 900;
+        font-size: 1.5rem;
+        margin-top: 8rem;
+        width: 350px;
         text-align: center;
-        margin-top: 10rem;
 
     }
 
@@ -151,10 +151,19 @@
         font-weight: 500;
         font-size: 0.9rem;
         text-align: center;
+        width: 350px;
+        margin-top: 1rem;
+    }
+    .planning-container .planning-left-cta button {
+        min-width: 23rem;
+
+    }
+    .planning-container .planning-right {
+        margin: 1rem;
     }
 
     .planning-container>.planning-right img {
-        width: 300px;
+        width: 350px;
         margin-top: 1rem;
     }
 }
@@ -162,13 +171,25 @@
 /* Ticketing Responsive Style */
 @media (max-width: 500px) {
     .ticket-container {
-        flex-direction: column;
+        margin: auto;
     }
 
     .ticket-container>h1 {
         font-weight: 800;
-        font-size: 1rem;
+        font-size: 1.5rem;
+        width: 350px;
+        margin-bottom: 0.8rem;
 
+    }
+    .ticket-container>p  {
+        width: 340px;
+        font-size: 0.9rem;
+        line-height: 1.5;
+        
+        
+    }
+    .ticket-container button  {
+        min-width: 22rem;
     }
 }
 
