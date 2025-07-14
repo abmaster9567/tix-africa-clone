@@ -217,10 +217,10 @@ html, body {
     }
     .service-card {
         min-height: 200px;
-        max-width: 350px;
+        max-width: 320px;
     }
     .service-container .service-card img  {
-        max-width: 290px;
+        max-width: 260px;
         max-height: 284px;
     }
     .service-container .service-card .card-body h2 {
@@ -230,7 +230,7 @@ html, body {
     }
     .service-container .service-card .card-body p {
         font-weight: 400;
-        font-size: 0.9rem;
+        font-size: 0.7rem;
 
     }
     .service-container .shifted {
