@@ -1,5 +1,11 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap');
 
+:root {
+    --primary-color: #FC6435;
+    --service-section-bg: #fff9f9;
+
+}
+
 
 
 /* Nav Bar Responsive style*/
@@ -192,31 +198,97 @@
         min-width: 22rem;
     }
 }
+@media (max-width: 500px)  {
+    .service-container {
+        flex-direction: column;
+        background-color: var(--service-section-bg);
+    }
+    .service-card {
+        min-height: 200px;
+        max-width: 350px;
+    }
+    .service-container .service-card img  {
+        max-width: 300px;
+        max-height: 284px;
+    }
+    .service-container .service-card .card-body h2 {
+        font-weight: 700;
+        font-size: 1.5rem;
+        margin-top: 1rem;
+    }
+    .service-container .service-card .card-body p {
+        font-weight: 400;
+        font-size: 0.9rem;
+
+    }
+    .service-container .shifted {
+    top: 0;
+}
+
+.service-container .lifted {
+    top: 0;
+}
+
+
+}
 
 @media (max-width: 500px) {
+    .testimonial {
+        min-height: 400px;
+        background-color: var(--service-section-bg);
+    }
     .testimonial-header h2 {
         font-weight: 700;
-        font-size: 1rem;
+        font-size: 1.5rem;
+        text-align: center;
+        width: 300px;
+    }
+    .testimonial-content {
+        margin-bottom: 1rem;
     }
     .testimonial-slider p {
-        padding: 10px;
+        font-size: 1rem;
+        width: 390px;
     }
 
 }
 @media (max-width: 500px) {
+    .img-wrapper  {
+        gap: 3rem;
+        animation: scroll-left 4s linear infinite;
+    }
+    .wrapper img {
+        width: 100px;
+        height: 30px;
+    }
+
+}
+
+
+
+@media (max-width: 500px) {
     .footer {
         flex-direction: column;
+        padding: 25px;
 
     }
     .footer .footer-details {
         margin-left: 0;
     }
+    .footer .footer-logo h5 {
+        font-size: 1.5rem;
+    }
     .footer-details .footer-txt p {
-        font-size: 0.9rem;
+        font-size: 1rem;
         margin-right: 0;
     }
+    .footer-details input  {
+        width: 65%;
+       padding: 20px;
+    }
     .footer-details button {
-        width: 35%;
+        width: 30%;
+        padding: 20px;
     }
     .footer .footer-links {
     margin-left: 0rem;
@@ -225,13 +297,22 @@
 }
 @media (max-width: 500px) {
     .footer-copyright {
-        flex-direction: column;
+        flex-direction: column-reverse;
+        padding: 25px;
+        border-top: 1px solid #000;
+    }
+     .footer-copyright h5 {
+        margin-left: 0;
+        font-size: 0.8rem;
     }
     .footer-copyright .Copyright-links {
         flex-direction: column;
+        justify-content: space-between;
+        gap: 2rem;
         margin-right: 0;
     }
-    .footer-copyright h5 {
-        margin-left: 0;
+    .footer-copyright .Copyright-links a {
+        font-size: 1rem;
     }
+   
 }

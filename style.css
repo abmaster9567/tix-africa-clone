@@ -468,25 +468,23 @@ header {
 
 .testimonial {
     min-height: 700px;
-    background-color: #fff;
-
-}
-
-.testimonial-container {
+    background-color: var();
     display: flex;
+    flex-direction: column;
     flex-wrap: wrap;
-    justify-content: center;
+    justify-content: space-between;
     align-items: center;
+    padding: 20px;
 
 }
+
 
 .testimonial-header h2 {
     font-family: "Inter", sans-serif;
     font-weight: 900;
     font-size: 4rem;
-    padding: 0 10px;
-    margin-top: 7rem;
     text-align: center;
+    width: 750px;
 
 }
 
@@ -494,41 +492,41 @@ header {
     display: flex;
     justify-content: center;
     align-items: center;
-    margin-top: 3rem;
 
 }
 
 .testimonial-icon .fa-solid {
     font-size: 3rem;
     color: #FC6435;
+    margin-top: 2rem;
 
 }
-
 .testimonial-content {
+    margin-bottom: 10rem;
+}
+
+.testimonial-slider {
     display: flex;
     flex-wrap: wrap;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
-    margin-top: 30px;
-    text-align: center;
 
 
 }
 
 .testimonial-slider p {
-    padding: 0 250px;
+    width: 900px;
     text-align: center;
     font-family: "Inter", sans-serif;
     font-weight: 400;
     font-size: 1.5rem;
+    line-height: 1.5;
 
 }
 
 .testimonial-slider .details {
     margin: 4rem;
-
-
-
 
 }
 
@@ -542,6 +540,7 @@ header {
     background-color: #fff;
 
 
+
 }
 
 .img-wrapper {
@@ -550,8 +549,9 @@ header {
     justify-content: space-around;
     align-items: center;
     gap: 5rem;
-    margin-bottom: 10rem;
+    margin-bottom: 5rem;
     animation: scroll-left 8s linear infinite;
+   
 }
 
 @keyframes scroll-left {
@@ -611,6 +611,7 @@ header {
     font-size: 1.1rem;
     margin-top: 2rem;
     margin-right: 15%;
+    line-height: 1.5;
 
 
 
@@ -771,7 +772,7 @@ header {
 .footer-copyright .Copyright-links {
     display: flex;
     justify-content: space-around;
-    align-items: center;
+    align-items: flex-start;
     gap: 4rem;
     font-family: "Inter", sans-serif;
     margin-right: 7rem;
