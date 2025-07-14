@@ -7,6 +7,11 @@
 }
 
 
+html,
+body {
+    overflow: hidden;
+}
+
 
 /* Nav Bar Responsive style*/
 @media (max-width: 500px) {
