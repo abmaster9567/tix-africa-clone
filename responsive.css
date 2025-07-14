@@ -12,7 +12,6 @@ html, body {
     overflow-y: auto;
 }
 
-
 * {
     margin: 0;
     padding: 0;
@@ -22,7 +21,7 @@ html, body {
 
 
 /* Nav Bar Responsive style*/
-@media (max-width: 767px) {
+@media (max-width: 500px) {
     .nav-item {
         position: fixed;
         display: none;
@@ -61,7 +60,7 @@ html, body {
 }
 
 /*hero responsive style*/
-@media (max-width: 767px) {
+@media (max-width: 500px) {
     .hero-content h1 {
         font-weight: 900;
         font-size: 2rem;
@@ -81,7 +80,7 @@ html, body {
 }
 
 /* Categories Responsive Style */
-@media (max-width: 767px) {
+@media (max-width: 500px) {
     .categories-container {
         display: flex;
         justify-content: flex-start;
@@ -127,7 +126,7 @@ html, body {
 
 }
 
-@media (max-width: 767px) {
+@media (max-width: 500px) {
     .bottom-container {
         margin: 0;
         padding: 0;
@@ -142,7 +141,7 @@ html, body {
 }
 
 /* Planning Responsive Style */
-@media (max-width: 767px) {
+@media (max-width: 500px) {
     .planning-container {
         flex-direction: column;
         justify-content: center;
@@ -188,7 +187,7 @@ html, body {
 }
 
 /* Ticketing Responsive Style */
-@media (max-width: 767px) {
+@media (max-width: 500px) {
     .ticket-container {
         margin: auto;
     }
@@ -211,7 +210,7 @@ html, body {
         min-width: 20rem;
     }
 }
-@media (max-width: 767px)  {
+@media (max-width: 500px)  {
     .service-container {
         flex-direction: column;
         background-color: var(--service-section-bg);
@@ -245,7 +244,7 @@ html, body {
 
 }
 
-@media (max-width: 767px) {
+@media (max-width: 500px) {
     .testimonial {
         min-height: 400px;
         background-color: var(--service-section-bg);
@@ -265,7 +264,7 @@ html, body {
     }
 
 }
-@media (max-width: 767px) {
+@media (max-width: 500px) {
     .img-wrapper  {
         gap: 3rem;
         animation: scroll-left 4s linear infinite;
@@ -279,7 +278,7 @@ html, body {
 
 
 
-@media (max-width: 767px) {
+@media (max-width: 500px) {
     .footer {
         flex-direction: column;
         padding: 25px;
@@ -310,7 +309,7 @@ html, body {
 
 }
 }
-@media (max-width: 767px) {
+@media (max-width: 500px) {
     .footer-copyright {
         flex-direction: column-reverse;
         padding: 25px;
